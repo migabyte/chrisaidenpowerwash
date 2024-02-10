@@ -9,7 +9,7 @@
           var s = blinks[i];
           s.style.visibility = (s.style.visibility === 'visible') ? 'hidden' : 'visible';
        }
-       window.setTimeout(JavaBlink, 400);
+       window.setTimeout(JavaBlink, 250);
     }
     if (document.addEventListener) document.addEventListener("DOMContentLoaded", JavaBlink, false);
     else if (window.addEventListener) window.addEventListener("load", JavaBlink, false);
