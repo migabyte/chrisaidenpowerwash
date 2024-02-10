@@ -9,7 +9,7 @@
           var s = blinks[i];
           s.style.visibility = (s.style.visibility === 'visible') ? 'hidden' : 'visible';
        }
-       window.setTimeout(JavaBlink, 1000);
+       window.setTimeout(JavaBlink, 400);
     }
     if (document.addEventListener) document.addEventListener("DOMContentLoaded", JavaBlink, false);
     else if (window.addEventListener) window.addEventListener("load", JavaBlink, false);
@@ -47,7 +47,7 @@ font-size: 20px;
 
 <span class="topheader"><h1>Chris and Aiden's Pressure Washing Business</h1></span>
 
-<p>We will wash your driveway for <span class="money"STYLE="text-decoration:blink">$79.99</span>!!</p>
+<p>We will wash your driveway for <span class="money"><javablink>$79.99</javablink></span>!!</p>
 
 <span class="beforeafter"><image src="beforeafter.png"></image></span>
 
